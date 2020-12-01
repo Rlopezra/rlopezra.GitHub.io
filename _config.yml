@@ -59,7 +59,7 @@ plugins:
 
 author:
   name   : "Ronald Lopez"
-  avatar : "/assets/images/Ginger Pic.jpg"
+  avatar : "/assets/images/profil.png"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
