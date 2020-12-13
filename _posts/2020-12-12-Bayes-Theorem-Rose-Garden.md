@@ -1,9 +1,7 @@
-
 ---
+layout: post
 title: "Bayes Theorem and the Rose Gardern Massacre"
-date: 2020-12-12T15:34:30-04:00
-categories:
-  - blog
+date: 2020-12-12
 tags:
   - Bayes
   - Analysis
