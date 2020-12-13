@@ -1,3 +1,15 @@
+
+---
+title: "Bayes Theorem and the Rose Gardern Massacre"
+date: 2020-12-12T15:34:30-04:00
+categories:
+  - blog
+tags:
+  - Bayes
+  - Analysis
+  - R
+---
+
 On September 25, President Trump and his administration held a ceremony
 in the White House’s Rose Garden to announce Amy Coney Barrett’s
 nomination to the Supreme Court. It was a contentious event since the
