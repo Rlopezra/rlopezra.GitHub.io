@@ -6,7 +6,9 @@ tags:
   - Bayes
   - Analysis
   - R
+comments: true
 ---
+
 
 On September 25, President Trump and his administration held a ceremony
 in the White House’s Rose Garden to announce Amy Coney Barrett’s
