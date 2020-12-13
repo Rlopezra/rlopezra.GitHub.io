@@ -1,3 +1,14 @@
+---
+layout: post
+title: "Bayes Rule and The Rose Garden Massacre"
+date: 2020-12-12
+tags:
+    - R
+    - Bayes
+    - Analysis
+comments: true
+---
+
 On September 25, President Trump and his administration held a ceremony
 in the White House’s Rose Garden to announce Amy Coney Barrett’s
 nomination to the Supreme Court. It was a contentious event since the
