@@ -41,11 +41,10 @@ results](https://www.massdevice.com/abbott-defends-rapid-covid-19-test-with-inte
 and [Abbott: ID NOW COVID-19 results more accurate with earlier
 testing](https://www.massdevice.com/abbott-id-now-covid-19-results-more-accurate-with-earlier-testing/).
 
-Bayes Rule
+Bayes Theorem
 ----------
 
-Let’s calculate some probabilites that we need to create our credibal
-intervals using Bayes Rule.
+Let’s calculate some probabilites that we need for Baye's Theorem.
 
 If we randomly chose an individual from our population and is given the
 Abbott Rapid test. The the probability that an individual:
