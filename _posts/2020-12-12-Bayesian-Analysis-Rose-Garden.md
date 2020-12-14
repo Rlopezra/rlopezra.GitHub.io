@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "Bayes Theorem and the Rose Gardern Massacre"
+title: "Bayes Theorem and the Rose Garden Massacre"
 date: 2020-12-12
 tags:
   - R
@@ -10,7 +10,7 @@ tags:
 comments: true
 ---
 
-Bayes Theorem and the Rose Gardern Massacre
+Bayes Theorem and the Rose Garden Massacre
 ================
 2020-12-12
 
