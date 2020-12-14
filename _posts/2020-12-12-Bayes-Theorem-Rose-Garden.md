@@ -78,7 +78,9 @@ an individual testing positive.
 ![\\newline
 P(+) = P(+|D)\\cdot{}P(D) + P(+|D^{c})\\cdot{}P(D^{c})
 \\newline
+\\newline
 P(+) = 0.91\\cdot{}0.004+ 0.05\\cdot{}0.996
+\\newline
 \\newline
 P(+)
 = 0.05344](https://latex.codecogs.com/png.latex?%5Cnewline%0AP%28%2B%29%20%3D%20P%28%2B%7CD%29%5Ccdot%7B%7DP%28D%29%20%2B%20P%28%2B%7CD%5E%7Bc%7D%29%5Ccdot%7B%7DP%28D%5E%7Bc%7D%29%0A%5Cnewline%0AP%28%2B%29%20%3D%200.91%5Ccdot%7B%7D0.004%2B%200.05%5Ccdot%7B%7D0.996%0A%5Cnewline%0AP%28%2B%29%20%3D%200.05344
@@ -102,9 +104,12 @@ actually has COVID-19 if their test was positive.
 P(D|+) = \\frac{P(+|D)\\cdot{}P(D)}{P(+|D)\\cdot{}P(D)+
 P(+|D^{c})\\cdot{}P(D^{c})}
 \\newline
+\\newline
 P(D|+) = \\frac{0.91\\cdot{}0.004}{0.91\\cdot{}0.004+ 0.05\\cdot{}0.996}
 \\newline
+\\newline
 P(D|+) = \\frac{0.00364}{0.00364+0.0498}
+\\newline
 \\newline
 P(D|+)
 = 0.068](https://latex.codecogs.com/png.latex?%0A%5Cnewline%0AP%28D%7C%2B%29%20%3D%20%5Cfrac%7BP%28%2B%7CD%29%5Ccdot%7B%7DP%28D%29%7D%7BP%28%2B%7CD%29%5Ccdot%7B%7DP%28D%29%2B%20P%28%2B%7CD%5E%7Bc%7D%29%5Ccdot%7B%7DP%28D%5E%7Bc%7D%29%7D%0A%5Cnewline%0AP%28D%7C%2B%29%20%3D%20%5Cfrac%7B0.91%5Ccdot%7B%7D0.004%7D%7B0.91%5Ccdot%7B%7D0.004%2B%20%200.05%5Ccdot%7B%7D0.996%7D%0A%5Cnewline%0AP%28D%7C%2B%29%20%3D%20%5Cfrac%7B0.00364%7D%7B0.00364%2B0.0498%7D%0A%5Cnewline%0AP%28D%7C%2B%29%20%3D%200.068
@@ -112,9 +117,12 @@ P(D|+)
 \\newline
 P(D|+) = \\frac{P(+|D)\\cdot{}P(D)}{P(+|D)\\cdot{}P(D)+ P(+|D^{c})\\cdot{}P(D^{c})}
 \\newline
+\\newline
 P(D|+) = \\frac{0.91\\cdot{}0.004}{0.91\\cdot{}0.004+  0.05\\cdot{}0.996}
 \\newline
+\\newline
 P(D|+) = \\frac{0.00364}{0.00364+0.0498}
+\\newline
 \\newline
 P(D|+) = 0.068")  
 
@@ -145,7 +153,9 @@ previous caluculation.
 \\newline
 P(D^c|+) = 1 - P(D|+)
 \\newline
+\\newline
 P(D^c|+) = 1 - 0.068
+\\newline
 \\newline
 P(D^c|+) = 0.932
 ](https://latex.codecogs.com/png.latex?%0A%5Cnewline%0AP%28D%5Ec%7C%2B%29%20%3D%201%20-%20P%28D%7C%2B%29%0A%5Cnewline%0AP%28D%5Ec%7C%2B%29%20%3D%201%20-%200.068%0A%5Cnewline%0AP%28D%5Ec%7C%2B%29%20%3D%200.932%0A
@@ -153,7 +163,9 @@ P(D^c|+) = 0.932
 \\newline
 P(D^c|+) = 1 - P(D|+)
 \\newline
+\\newline
 P(D^c|+) = 1 - 0.068
+\\newline
 \\newline
 P(D^c|+) = 0.932
 ")  
