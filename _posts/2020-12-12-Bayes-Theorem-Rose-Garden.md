@@ -240,7 +240,8 @@ ggplot(x_df, aes(x = x)) +
   xlab("Number of Positive Tests")
 ```
 
-![](https://ibb.co/5r18fwN)
+<img src="https://static01.bbi.io/2Wt9Tk.gif"/>
+
 
 
 ##### From the Washington Post article there were 9 people listed, but it also mentions 11 people who are photographers or reports also tested positive. Is 20 people testing positive consistent with with the simulations?
