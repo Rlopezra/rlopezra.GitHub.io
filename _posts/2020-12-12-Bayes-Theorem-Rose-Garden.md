@@ -239,8 +239,7 @@ ggplot(x_df, aes(x = x)) +
   geom_vline(xintercept = quantile(x, c(0.025, .975)), linetype="dotted",  color = "red", size=1.5)+
   xlab("Number of Positive Tests")
 ```
-
-<img src="https://imgur.com/a/pVeKnKI">
+[<img src="https://imgur.com/a/pVeKnKI">]
 
 ##### From the Washington Post article there were 9 people listed, but it also mentions 11 people who are photographers or reports also tested positive. Is 20 people testing positive consistent with with the simulations?
 
