@@ -240,7 +240,7 @@ ggplot(x_df, aes(x = x)) +
   xlab("Number of Positive Tests")
 ```
 
-![Imgur Image](https://imgur.com/uLYwHC0)
+![Imgur Image](https://imgur.com/uLYwHC0.jpg)
 
 
 
