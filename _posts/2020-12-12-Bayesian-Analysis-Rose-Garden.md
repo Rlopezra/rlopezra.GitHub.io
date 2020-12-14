@@ -1,3 +1,15 @@
+---
+layout: single
+classes: wide
+title: "Bayes Theorem and the Rose Gardern Massacre"
+date: 2020-12-12
+tags:
+  - R
+  - Bayes
+  - Analysis
+comments: true
+---
+
 Bayes Theorem and the Rose Gardern Massacre
 ================
 2020-12-12
