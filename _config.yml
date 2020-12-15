@@ -16,11 +16,9 @@
 title: Ronald Lopez
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Ronald Lopez Portfolio
 twitter_username: username
-github_username: username
+github_username: RLopezra
 minimal_mistakes_skin: air
 search: true
 
@@ -60,7 +58,7 @@ plugins:
 author:
   name   : "Ronald Lopez"
   avatar : "/assets/images/profil.png"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
+  bio    : "Statistician with an interest in UXR, NLP and anything that involves numbers. Outside of data science, I love to dance/perform salsa, play guitar and spend time with my dog."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
