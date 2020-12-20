@@ -909,7 +909,7 @@ sns.catplot(x="tf", y="pos_tokens", col="Reviewer_Nationality",data=top_tf, kind
 
 
 
-![png](output_16_1.png)
+![Imgur Image](https://imgur.com/301AfIb.jpg)
 
 
 Now lets plot 'TD-IDF' to show each nationalities most important words. 
@@ -1158,6 +1158,3 @@ hotel_comp
 Awesome! Now we have a function that takes in the dataset, the column we are comparing, and the tokens to calculate the 'TF-IDF.'
 
 
-```python
-
-```
