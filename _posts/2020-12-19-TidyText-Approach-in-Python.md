@@ -453,7 +453,7 @@ df_explode
 
 To calculate a token's TF-IDF, we need two pieces of information:
 
-- Term Frequency (TF) :How token's frequency within each document
+- Term Frequency (TF): How token's frequency within each document
 - Inverse Document Frequency (IDF): The inverse of how many documents the token is in
 
 For our example, we will be calculating token's TD-IDF based on 'Reviewer Nationality.'
@@ -462,7 +462,7 @@ The first step is calculate tokens' term frequency for each nationality and the 
 
 
 ```python
-#getting word count in each group
+#getting token count in each group
 counts = df_explode.groupby('Reviewer_Nationality')['pos_tokens'].value_counts().to_frame().rename(columns={'pos_tokens':'n_w'})
 
 #each group's total word count
@@ -933,7 +933,7 @@ sns.catplot(x="tf_idf", y="pos_tokens", col="Reviewer_Nationality",data=top_tfid
 
 A cool graph that we can create is a scatterplot that compares how frequently a token is used by each nationality. The way to interpret this graph is words that are along the diagonal line are equally used by each nationality. The further the token deviates from the diagonal line, the more it used by a nationality. In our example, words that are above the diagonal line are more frequently used by Americans.
 
-**Footnote:** I usually plot this graph using Plotly or visulation tool like Tableau, PowerBI or Google Data Studio to allow stakeholders to explore the dataset. This graph is not very informative when all of the points overlap and you can't discern them.
+**Note:** I usually plot this graph using Plotly or visulation tool like Tableau, PowerBI or Google Data Studio to allow stakeholders to explore the graph. This graph is not very informative when all of the points overlap and you can't discern them.
 
 
 ```python
@@ -955,7 +955,7 @@ sns.regplot(x='Australia', y='United States of America', data=sub_set_ct, ci=Non
 
 ### Reproducibility
 
-Calculating 'TD-IDF' isn't difficulty, but it can be tedious if you have to repeat the process several times. So lets create a function to simplify the process.
+Calculating 'TD-IDF' isn't difficult, but it can be tedious if you have to repeat the process several times. So lets create a function to simplify the process.
 
 
 ```python
