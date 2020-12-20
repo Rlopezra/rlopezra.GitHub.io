@@ -928,7 +928,7 @@ sns.catplot(x="tf_idf", y="pos_tokens", col="Reviewer_Nationality",data=top_tfid
 
 
 
-![png](output_18_1.png)
+![Imgur Image](https://imgur.com/EmLQeXI.jpg)
 
 
 A cool graph that we can create is a scatterplot that compares how frequently a token is used by each nationality. The way to interpret this graph is words that are along the diagonal line are equally used by each nationality. The further the token deviates from the diagonal line, the more it used by a nationality. In our example, words that are above the diagonal line are more frequently used by Americans.
@@ -950,7 +950,7 @@ sns.regplot(x='Australia', y='United States of America', data=sub_set_ct, ci=Non
 
 
 
-![png](output_20_1.png)
+![Imgur Image](https://imgur.com/wfGEezW.jpg)
 
 
 ### Reproducibility
