@@ -58,7 +58,7 @@ plugins:
 author:
   name   : "Ronald Lopez"
   avatar : "/assets/images/profil.png"
-  bio    : "Statistician with an interest in UXR, NLP and anything that involves numbers. Outside of data science, I love to dance/perform salsa, play guitar and spend time with my dog."
+  bio    : "Statistician with an interest in UXR, NLP and anything that involves numbers. Outside of data science, I love to dance/perform salsa, practice Muay Thai, play guitar and spend time with my dog."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
