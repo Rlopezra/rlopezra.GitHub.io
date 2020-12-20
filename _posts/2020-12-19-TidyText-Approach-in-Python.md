@@ -1,3 +1,17 @@
+---
+layout: single
+classes: wide
+title: "TidyText Approach in Python"
+date: 2020-12-12
+tags:
+  - Python
+  - TidyText
+  - Pandas
+  - NLP
+  - Analysis
+comments: true
+---
+
 During my tenure at Google Wear OS, one of my main sources of data that I had to analyze was open ended responses from surveys. The responses were usually submitted by users through the Happiness Tracking Survey (HaTS), a bug report, or a survey for a feature in development. Some of the most common questions users were asked are:
 - What do you like the **MOST** about your device?
 - What do you like the **LEAST** about your device?
