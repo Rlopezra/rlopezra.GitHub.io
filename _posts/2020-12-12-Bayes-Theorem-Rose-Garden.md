@@ -68,7 +68,7 @@ Let’s calculate some probabilites that we need for Bayes Rule.
 If we randomly chose an individual from our population and is given the
 Abbott Rapid test. The the probability that an individual:
 
-##### Test positive, ![P(+)](https://latex.codecogs.com/png.latex?P%28%2B%29 "P(+)").
+##### Test positive, ![P(+)](https://latex.codecogs.com/png.latex?P%28%2B%29 "P(+)")
 
 We can use the Law of Total Probability to calculate the probability of
 an individual testing positive.
