@@ -26,7 +26,7 @@ However, categorizing open-ended responses is not a feasible method when dealing
 ![Image](https://www.tidytextmining.com/04-word-combinations_files/figure-html/bigramtfidf-1.png)
 
 
-Prior to adapting these methods, Wear OS analyzed large data set of open-ended responses by taking a random sample of responses and manually coding them. The methods taught by the book allowed me to analyze entire datasets to find out what where users liked and disliked about their Wear OS devices. I replicated many of the graphs in Text Mining with R using Wear OS' data and they were received with great fanfare.
+Prior to adapting these methods, Wear OS analyzed large data set of open-ended responses by taking a random sample of responses and manually coding them. The methods taught by the book allowed me to analyze entire datasets to find out what users liked and disliked about their Wear OS devices. I replicated many of the graphs in Text Mining with R using Wear OS' data and they were received with great fanfare.
 
 So when I tried to apply these methods in Python, I was dishearten to find that the language had no equivalent package to calculate a token’s TF-IDF. So, I created one. 
 
