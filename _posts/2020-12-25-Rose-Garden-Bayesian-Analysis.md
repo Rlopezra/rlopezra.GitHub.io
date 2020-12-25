@@ -102,20 +102,7 @@ the image shows approximately 300 people in attendance.
 (i.e. credibility) than any value outside the HDI. The HDI thereforre
 includes the most credible values.” pg 342
 
-    ## Loading required package: rjags
-
-    ## Loading required package: coda
-
-    ## Linked to JAGS 4.3.0
-
-    ## Loaded modules: basemod,bugs
-
-    ## 
-    ## *********************************************************************
-    ## Kruschke, J. K. (2015). Doing Bayesian Data Analysis, Second Edition:
-    ## A Tutorial with R, JAGS, and Stan. Academic Press / Elsevier.
-    ## *********************************************************************
-
+The first step is to simulate some data for the Rose Garden event since we do not have the test results of each attendent. 
 ``` r
 set.seed(19)
 prob_nu <- 0.05
