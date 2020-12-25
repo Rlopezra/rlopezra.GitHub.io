@@ -88,7 +88,8 @@ probability of falling within 71 and 79 percent.”
 I hope after these two examples that my professor’s explanation makes
 sense. A confidence interval looks at the event space horizontally by
 having a range where the true paramater can lie in, while a credible
-interval looks at the height of probability distribution
+interval looks at the height of probability distribution returns the 
+interval that is the most credible to occur.
 
 ## Creating Credible Intervals
 
