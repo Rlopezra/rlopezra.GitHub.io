@@ -1,3 +1,16 @@
+---
+layout: single
+classes: wide
+title: "Bayes Theorem and the Rose Garden Massacre"
+date: 2020-12-12
+tags:
+  - R
+  - Bayes
+  - Analysis
+  - Probability
+comments: true
+---
+
 A Bayesian Analysis of the Rose Gardern Massacre
 ================
 
