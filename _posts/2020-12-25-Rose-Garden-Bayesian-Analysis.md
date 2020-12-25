@@ -44,7 +44,7 @@ contagious but it has low prevalency, so we combine our prior knowledge
 of COVID-19 and our sample data to create a posterior distribution
 that’s a compromise of our assumptions and the data.
 
-![](Rose-Garden-Bayesian-Analysis_files/figure-gfm/unnamed-chunk-1-1.png)<!-- -->
+ ![Imgur Image](https://imgur.com/0VSXKwH.jpeg)
 
 ## What’s the Difference
 
