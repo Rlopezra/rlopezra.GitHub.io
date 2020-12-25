@@ -201,7 +201,7 @@ plotPost( codaSamples[,"nu"] , main="nu" , xlab=bquote(nu) ,
           cenTend="median"  )
 ```
 
-![](Rose-Garden-Bayesian-Analysis_files/figure-gfm/unnamed-chunk-8-1.png)<!-- -->
+ ![Imgur Image](https://imgur.com/JzWzOpn.jpeg)
 
     ##         ESS      mean    median      mode hdiMass     hdiLow    hdiHigh compVal
     ## nu 13511.87 0.0720847 0.0707557 0.0664064    0.95 0.04855557 0.09948329      NA
@@ -213,7 +213,8 @@ plotPost( codaSamples[,"pi"] , main="pi" , xlab=bquote(pi) ,
           cenTend="median"  )
 ```
 
-![](Rose-Garden-Bayesian-Analysis_files/figure-gfm/unnamed-chunk-8-2.png)<!-- -->
+
+ ![Imgur Image](https://imgur.com/H76oFB3.jpeg)
 
     ##         ESS       mean     median       mode hdiMass       hdiLow    hdiHigh
     ## pi 10464.99 0.02643318 0.02448011 0.02176192    0.95 1.450392e-06 0.05599159
@@ -225,7 +226,7 @@ plotPost( codaSamples[,"sens"] , main="Sensitivity" , xlab=bquote(eta) ,
           cenTend="median"  )
 ```
 
-![](Rose-Garden-Bayesian-Analysis_files/figure-gfm/unnamed-chunk-8-3.png)<!-- -->
+![Imgur Image](https://imgur.com/zcRisRg.jpeg)
 
     ##          ESS      mean    median      mode hdiMass    hdiLow   hdiHigh compVal
     ## eta 15556.68 0.9098501 0.9101295 0.9102942    0.95 0.8927684 0.9274046      NA
@@ -237,7 +238,7 @@ plotPost( codaSamples[,"spec"] , main="Specificity" , xlab=bquote(theta) ,
           cenTend="median"  )
 ```
 
-![](Rose-Garden-Bayesian-Analysis_files/figure-gfm/unnamed-chunk-8-4.png)<!-- -->
+![Imgur Image](https://imgur.com/LezRRgp.jpeg)
 
     ##            ESS     mean    median      mode hdiMass    hdiLow   hdiHigh compVal
     ## theta 12490.22 0.950693 0.9509878 0.9523356    0.95 0.9374013 0.9630593      NA
