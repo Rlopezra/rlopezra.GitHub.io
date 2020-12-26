@@ -92,7 +92,7 @@ interval looks at the height of probability distribution returns the
 interval that is the most credible to occur.
 
 ## Creating Credible Intervals
-To create the credible interval, I am going to use JAGS to create the Rose Garden's posterior distribution.
+To calculate the credible interval, I am going to use JAGS to create the Rose Garden's posterior distribution.
 
 The first step to create the credible intervals is to simulate the data for the Rose Garden event since we do not have the test results of each attendent. This is necessary because JAGS will require data to run the model. In this Washing Post article [Rose Garden ceremony attendees who
 tested positive for
@@ -108,6 +108,7 @@ sum(y)
 ```
 
     ## [1] 20
+
 Our simulated data has twenty individuals that tested positive. 
 
 JAGS need the data to be in a list of values, vectors, and matrices.
@@ -119,7 +120,7 @@ dataList <- list(
 )
 ```
 
-For our model, I am going to use the Bernoulli distribution for the likelihood. For Nu, I'm using the Law of Total Probability 
+For the model, I am going to use the Bernoulli distribution for the likelihood. For Nu, I'm using the Law of Total Probability 
 for the probability of testing positive. I went over the math for this calculation in my previous [post](https://rlopezra.github.io/Bayes-Theorem-Rose-Garden/#test-positive-)
 ``` r
 modelString <- "
