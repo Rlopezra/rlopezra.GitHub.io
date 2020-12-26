@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "Bayes Analysis of the Rose Garden Massacre"
+title: "Bayesian Analysis of the Rose Garden Massacre"
 date: 2020-12-12
 tags:
   - R
