@@ -11,7 +11,6 @@ tags:
 comments: true
 ---
 
-A Bayesian Analysis of the Rose Gardern Massacre
 ================
 
 This post is a continuation of my post [Bayes Theorem and the Rose
