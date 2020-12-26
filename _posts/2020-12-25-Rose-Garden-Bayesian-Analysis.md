@@ -40,7 +40,7 @@ proportion of individuals tested positive positive for COVID-19 at a
 much higher rate than we expected. We know that COVID-19 is highly
 contagious but it has low prevalency, so we combine our prior knowledge
 of COVID-19 and our sample data to create a posterior distribution
-that’s a compromise of our assumptions and the data.
+that’s a compromise of our assumptions and data.
 
  ![Imgur Image](https://imgur.com/0VSXKwH.jpeg)
 
