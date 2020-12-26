@@ -182,7 +182,17 @@ codaSamples = coda.samples( jagsModel,
 #save( codaSamples, file=paste0("Mcmc.Rdata") )
 ```
 
-Hold for text
+### Credible Intervals
+
+I'm using the plotPost function to analyze and plot the posterior distribution for each parameter. Since the plots illustrate the 95% Highest Density Interval (HDI) and John Kruschke defines HDI as:
+
+> The HDI indicates which points of a distribution are most credible,
+> and which cover most of the distribution. Thus, the HDI summarizes
+> the distribution by specifiying an interval that spans most of the
+> distribution...such that every point inside the interval has higher
+> credibility than any apoint outside the interval
+
+I'll be using HDI and Credible Intervals interchangeably.
 
 ``` r
 plotPost( codaSamples[,"nu"] , main="nu" , xlab=bquote(nu) , 
@@ -195,6 +205,8 @@ plotPost( codaSamples[,"nu"] , main="nu" , xlab=bquote(nu) ,
     ## nu 13511.87 0.0720847 0.0707557 0.0664064    0.95 0.04855557 0.09948329      NA
     ##    pGtCompVal ROPElow ROPEhigh pLtROPE pInROPE pGtROPE
     ## nu         NA      NA       NA      NA      NA      NA
+
+For Nu, the 95%
 
 ``` r
 plotPost( codaSamples[,"pi"] , main="pi" , xlab=bquote(pi) , 
