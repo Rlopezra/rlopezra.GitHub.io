@@ -252,6 +252,6 @@ plotPost( codaSamples[,"spec"] , main="Specificity" , xlab=bquote(theta) ,
     ##       pGtCompVal ROPElow ROPEhigh pLtROPE pInROPE pGtROPE
     ## theta         NA      NA       NA      NA      NA      NA
 
-The probability of the testing positive given that you do **NOT** have COVID (Specificity) has a 95%
+The probability of the testing negative given that you do **NOT** have COVID (Specificity) has a 95%
 probability of falling within 0.93 and 0.96 percent.
 
