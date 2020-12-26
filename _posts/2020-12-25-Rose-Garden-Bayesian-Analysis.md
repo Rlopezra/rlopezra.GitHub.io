@@ -206,20 +206,23 @@ plotPost( codaSamples[,"nu"] , main="nu" , xlab=bquote(nu) ,
     ##    pGtCompVal ROPElow ROPEhigh pLtROPE pInROPE pGtROPE
     ## nu         NA      NA       NA      NA      NA      NA
 
-For Nu, the 95%
+For Nu, the probability of someone testing positive for COVID-19 has a 95%
+probability of falling within 0.048 and 0.099 percent, with a median of 0.07 percent.
 
 ``` r
 plotPost( codaSamples[,"pi"] , main="pi" , xlab=bquote(pi) , 
           cenTend="median"  )
 ```
 
-
  ![Imgur Image](https://imgur.com/H76oFB3.jpeg)
-
+ 
     ##         ESS       mean     median       mode hdiMass       hdiLow    hdiHigh
     ## pi 10464.99 0.02643318 0.02448011 0.02176192    0.95 1.450392e-06 0.05599159
     ##    compVal pGtCompVal ROPElow ROPEhigh pLtROPE pInROPE pGtROPE
     ## pi      NA         NA      NA       NA      NA      NA      NA
+
+The probability of carrying COVID-19 has a 95%
+probability of falling within 0.0000014 and 0.055 percent.
 
 ``` r
 plotPost( codaSamples[,"sens"] , main="Sensitivity" , xlab=bquote(eta) , 
@@ -233,6 +236,10 @@ plotPost( codaSamples[,"sens"] , main="Sensitivity" , xlab=bquote(eta) ,
     ##     pGtCompVal ROPElow ROPEhigh pLtROPE pInROPE pGtROPE
     ## eta         NA      NA       NA      NA      NA      NA
 
+The probability of the testing positive given that you have COVID (Sensitivity) has a 95%
+probability of falling within 0.89 and 0.92 percent.
+
+
 ``` r
 plotPost( codaSamples[,"spec"] , main="Specificity" , xlab=bquote(theta) , 
           cenTend="median"  )
@@ -245,4 +252,6 @@ plotPost( codaSamples[,"spec"] , main="Specificity" , xlab=bquote(theta) ,
     ##       pGtCompVal ROPElow ROPEhigh pLtROPE pInROPE pGtROPE
     ## theta         NA      NA       NA      NA      NA      NA
 
-Hold for text
+The probability of the testing positive given that you do **NOT** have COVID (Specificity) has a 95%
+probability of falling within 0.93 and 0.96 percent.
+
