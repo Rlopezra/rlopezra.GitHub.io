@@ -11,7 +11,6 @@ tags:
 comments: true
 ---
 
-================
 
 This post is a continuation of my post [Bayes Theorem and the Rose
 Garden Massacre](https://rlopezra.github.io/Bayes-Theorem-Rose-Garden/)
