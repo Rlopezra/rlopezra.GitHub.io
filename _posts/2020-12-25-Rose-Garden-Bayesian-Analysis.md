@@ -121,7 +121,9 @@ dataList <- list(
 ```
 
 For the model, I am going to use the Bernoulli distribution for the likelihood. For Nu, I'm using the Law of Total Probability 
-for the probability of testing positive. I went over the math for this calculation in my previous [post](https://rlopezra.github.io/Bayes-Theorem-Rose-Garden/#test-positive-)
+for the probability of testing positive. I went over the math for this calculation in my previous [post](https://rlopezra.github.io/Bayes-Theorem-Rose-Garden/#test-positive-).
+
+Since the test went through an clinical trial to meassure its efficacy, I'm using strong priors for both sensitivity and specificity. I'm using a flat/uniform prior for pi, the probability of carrying the disease.
 ``` r
 modelString <- "
 model {
