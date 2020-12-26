@@ -92,17 +92,12 @@ interval looks at the height of probability distribution returns the
 interval that is the most credible to occur.
 
 ## Creating Credible Intervals
+To create the credible interval, I am going to use JAGS to create the Rose Garden's posterior distribution.
 
-In a recent Washing Post article [Rose Garden ceremony attendees who
+The first step to create the credible intervals is to simulate the data for the Rose Garden event since we do not have the test results of each attendent. This is necessary because JAGS will require data to run the model. In this Washing Post article [Rose Garden ceremony attendees who
 tested positive for
 coronavirus](https://www.washingtonpost.com/graphics/2020/politics/coronavirus-attendees-barrett-nomination-ceremony/)
-the image shows approximately 300 people in attendance.
-
-“All the values inside the HDI have higher probability density
-(i.e. credibility) than any value outside the HDI. The HDI thereforre
-includes the most credible values.” pg 342
-
-The first step is to simulate some data for the Rose Garden event since we do not have the test results of each attendent. 
+the image shows approximately 300 people in attendance, so I will simulate the number of positive cases in a 300 person event. 
 ``` r
 set.seed(19)
 prob_nu <- 0.05
@@ -113,6 +108,7 @@ sum(y)
 ```
 
     ## [1] 20
+Our simulated data has twenty individuals that tested positive. 
 
 JAGS need the data to be in a list of values, vectors, and matrices.
 
@@ -123,8 +119,8 @@ dataList <- list(
 )
 ```
 
-Creating the model
-
+For our model, I am going to use the Bernoulli distribution for the likelihood. For Nu, I'm using the Law of Total Probability 
+for the probability of testing positive. I went over the math for this calculation in my previous [post](https://rlopezra.github.io/Bayes-Theorem-Rose-Garden/#test-positive-)
 ``` r
 modelString <- "
 model {
@@ -151,7 +147,7 @@ initsList = list( pi=pi_init,
                   spec=spec_init) 
 ```
 
-Running the model
+Running the model.
 
 ``` r
 jagsModel <- jags.model( file = textConnection(modelString), 
@@ -171,6 +167,8 @@ jagsModel <- jags.model( file = textConnection(modelString),
     ## 
     ## Initializing model
 
+
+After running the model, I'll extract samples to create the posterior distribution that I will use for the credible intervals.
 ``` r
 update( jagsModel, n.iter = 5000 )
 
