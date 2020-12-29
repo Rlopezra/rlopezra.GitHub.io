@@ -190,7 +190,7 @@ I'm using the plotPost function to analyze and plot the posterior distribution f
 > distribution...such that every point inside the interval has higher
 > credibility than any apoint outside the interval
 
-I'll be using HDI and Credible Intervals interchangeably.
+I'll be using the terms HDI and Credible Intervals interchangeably.
 
 ``` r
 plotPost( codaSamples[,"nu"] , main="nu" , xlab=bquote(nu) , 
