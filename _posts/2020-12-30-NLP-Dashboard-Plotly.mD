@@ -22,7 +22,11 @@ using Natural Language Processing (NLP) techniques. The dashboard was created us
 The dashboard has two components, the first compares the most frequently used and most important bigrams between two nationalities. The second component visualizes a Word2Vec word embedding in two dimensions using t-SNE.
 ## Word Frequencies
 
-sgs
+I created the word frequencies using the TidyText approach, [I had to created my own function to do it](https://rlopezra.github.io/TidyText-Approach-in-Python/), to visualize the most frequently used and most important bigrams for each nationality in their hotel reviews. Additionally, I'm using bigrams (2 words) instead of tokens (1 word) since they are more informative and provide more contextual information. 
+
+I also created a scatterplot that compares how frequently a token is used by each nationality. The way to interpret this graph is words that are along the diagonal line are equally used by each nationality. The further the token deviates from the diagonal line, the more it used by a nationality. In our example, words that are above the diagonal line are more frequently used by Belgiums.
+
+
 ## Visualizing Word Embeddings
 sg
 
