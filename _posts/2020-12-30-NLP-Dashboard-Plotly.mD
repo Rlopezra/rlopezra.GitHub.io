@@ -16,6 +16,7 @@ I created a dashboard analysing the [Kaggle 515K Hotel Reviews Data in Europe](h
 using Natural Language Processing (NLP) techniques. The dashboard was created using Plotly and is being hosted by PythonAnywhere.
 
 [You can view the dashboard by following this link](http://rlopezra.pythonanywhere.com/)
+
 [You can view the source code on my Github](https://github.com/Rlopezra/Hotel-Reviews-Plotly-Dashboard)
 
 The dashboard has two components, the first compares the most frequently used and most important bigrams between two nationalities. The second component visualizes a Word2Vec word embedding in two dimensions using t-SNE.
