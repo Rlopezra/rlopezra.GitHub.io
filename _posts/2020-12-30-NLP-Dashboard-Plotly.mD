@@ -20,15 +20,15 @@ using Natural Language Processing (NLP) techniques. The dashboard was created us
 [You can view the source code on my Github](https://github.com/Rlopezra/Hotel-Reviews-Plotly-Dashboard)
 
 The dashboard has two components, the first compares the most frequently used and most important bigrams between two nationalities. The second component visualizes a Word2Vec word embedding in two dimensions using t-SNE.
-## Word Frequencies
 
+## Word Frequencies
 I created the word frequencies using the TidyText approach, [I had to created my own function to do it](https://rlopezra.github.io/TidyText-Approach-in-Python/), to visualize the most frequently used and most important bigrams for each nationality in their hotel reviews. Additionally, I'm using bigrams (2 words) instead of tokens (1 word) since they are more informative and provide more contextual information. 
 
 I also created a scatterplot that compares how frequently a token is used by each nationality. The way to interpret this graph is words that are along the diagonal line are equally used by each nationality. The further the token deviates from the diagonal line, the more it used by a nationality. In our example, words that are above the diagonal line are more frequently used by Belgiums.
 
 
 ## Visualizing Word Embeddings
-To be written
+The second section of the dashboard is a scatterplot that visualizes a word embedding in two dimensions. For those that are unfamiliar what a word embedding is, it's a spatial representation of our corpa (all the words used in hotel reviews) in a multi-dimensional array (space). The idea is that using this multi-dimensional array, we can find out which words are the most similar or have the strong relationship. By using the t-SNE algorithm, we can visualize the word embedding in two dimensions thus creating a scatterplot. So, in this graph, points (tokens) that are near each other means that they are used together frequently. It’s important to note that the axis values have no meaningful meaning, instead treat them as spatial points centered around (0,0). 
 
 ## What I Learned
 This project started with the goal of familiarizing myself with Plotly’s Dash platform and being comfortable creating a complex dashboard with multiple callbacks. Even though that goal was met, what I got the most from this project was the knowledge of how to host the dashboard. It was pretty easy and straightforward to build the dashboard due to great [documentation]( https://dash.plotly.com/) and the numerous public [apps]( https://dash-gallery.plotly.host/Portal/) whose code is available. Any proficient Python programmer could build a comparable dashboard in less than a day.
