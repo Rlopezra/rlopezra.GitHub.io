@@ -1,6 +1,6 @@
 ---
 title: "Salsa Performances"
-layout: categories
+layout: performances
 permalink: /performances/
 author_profile: true
 ---
