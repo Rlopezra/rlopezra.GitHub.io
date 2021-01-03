@@ -60,8 +60,8 @@ author:
   avatar : "/assets/images/profil.png"
   bio    : "Statistician with an interest in UXR, NLP and anything that involves numbers. Outside of data science, I love to dance/perform salsa, practice Muay Thai, play guitar and spend time with my dog."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
+    - label: "California, USA"
+      icon: "fas fa-map-marker"
       url: "https://"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
