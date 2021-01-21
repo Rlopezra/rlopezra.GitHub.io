@@ -13,10 +13,10 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Ronald Lopez
+title: Ronald Lopez-Ramirez
 email:
 description: >- # this means to ignore newlines until "baseurl:"
-  Ronald Lopez Portfolio
+  Ronald Lopez-Ramirez Portfolio
 twitter_username: username
 github_username: RLopezra
 minimal_mistakes_skin: air
