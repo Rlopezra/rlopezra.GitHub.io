@@ -64,8 +64,8 @@ A cool thing about OLR and what makes it different is that the model
 assumes that the dependent variable comes from a latent continuous space
 (User Satisfaction) and it find K-1 thresholds to partition the
 probability space (K being the number of values in the dependent
-variable). In simpler words, an OLR tells us the proportion of respondents
-that will respond in each value.
+variable). In simpler words, an OLR tells us the probability of
+respondent answering to each value!
 
 ## Performing an OLR
 
@@ -150,9 +150,15 @@ Z-scores and we can convert them to probabilities using pnorm:
 pnorm(-2.12) 
 ```
     ## 0.01700302
-    
+
+Going off the intercepts alone, 1.7% of respondents are expected to respond "Very Dissatisfied."
+
+The graph below illustrated the thresholds for a normal distribution centered on 0.
     
 ![Imgur Image](https://i.imgur.com/XP03SrF.jpg)
+
+
+
 
 ![Imgur Image](https://imgur.com/m9sMRTT.jpg)
 
