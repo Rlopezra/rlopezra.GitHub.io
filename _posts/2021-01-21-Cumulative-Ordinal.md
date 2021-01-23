@@ -61,8 +61,8 @@ Additionally, these differences can be compounded since they can very by
 individual.
 
 A cool thing about OLR and what makes it different is that the model
-assumes that the dependent variable comes from a latent continuous space (distribution)
-(User Satisfaction) and it find K-1 thresholds to partition the
+assumes that the dependent variable (User Satisfaction) comes from a latent continuous space (distribution)
+and it finds K-1 thresholds to partition the
 probability space (K being the number of values in the dependent
 variable). In simpler words, an OLR tells us the probability of
 respondent answering to each value!
