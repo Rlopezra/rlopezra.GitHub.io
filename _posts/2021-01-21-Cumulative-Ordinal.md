@@ -13,7 +13,7 @@ comments: true
 ---
 
 
-Logistic Regression in Survey Analysis
+Regression in Survey Analysis
 ================
 
 In the User Experience (UX) field, most quantitative data that you deal
