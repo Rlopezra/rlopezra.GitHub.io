@@ -8,6 +8,7 @@ tags:
   - Bayes
   - Analysis
   - Probability
+  - Regression
 comments: true
 ---
 
@@ -63,8 +64,8 @@ A cool thing about OLR and what makes it different is that the model
 assumes that the dependent variable comes from a latent continuous space
 (User Satisfaction) and it find K-1 thresholds to partition the
 probability space (K being the number of values in the dependent
-variable). In simpler words, an OLR tells us the probability of each
-response being selected
+variable). In simpler words, an OLR tells us the proportion of respondents
+that will respond in each value.
 
 ## Performing an OLR
 
@@ -73,7 +74,10 @@ Survey](https://www.kaggle.com/aitzaz/stack-overflow-developer-survey-2020)
 and run a Bayesian Regression using BRMS with uninformed priors. The
 reason I’m taking a Bayesian approach is because the results are easier
 to interpret and I’m using uniformed priors since I do not
-have any prior knowledge or assumptions about the population surveyed.
+have any prior knowledge or assumptions about the population surveyed. The
+model is a simple one, the explanatory variable is Satisfaction and the
+explanatory variables are Age (in years) and if they Job Seek (are they
+looking for a new job). 
 
 ``` r
 library(tidyverse)
@@ -135,6 +139,19 @@ summary(cumul_model)
 
 ## Interpreting the results
 
+We ran our model and we have our results, but how do we interpret the results? For
+simplicity, let's focus on the interpreting the intercepts. The intercepts can be 
+interpreted as the thresholds that separate the response values under a normal 
+curve, so Intercept[1] is the threshold that separates “Very Dissatisfied” 
+and “Somewhat Dissatisfied." Since I used the probit link function, the intercepts are
+Z-scores and we can convert them to probabilities using pnorm:
+
+``` r
+pnorm(-2.12) 
+```
+    ## 0.01700302
+    
+    
 ![Imgur Image](https://i.imgur.com/XP03SrF.jpg)
 
 ![Imgur Image](https://imgur.com/m9sMRTT.jpg)
@@ -145,6 +162,7 @@ summary(cumul_model)
 
 ### Resources
 
+- [Introduction to Ordinal Regression (video)](https://www.youtube.com/watch?v=jWIJ7P1G9P4)
 - [Ordinal Regression - Wikipedia](https://en.wikipedia.org/wiki/Ordinal_regression)
 - [Ordinal Regression Models in Psychology: A Tutorial - OSF](https://psyarxiv.com/x8swp/)
 - [Examples of Using R for Modeling Ordinal Data](http://users.stat.ufl.edu/~aa/ordinal/R_examples.pdf)
