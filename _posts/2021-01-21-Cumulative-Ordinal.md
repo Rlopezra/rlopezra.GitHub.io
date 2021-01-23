@@ -1,7 +1,7 @@
 ---
 layout: single
 classes: wide
-title: "An Alternative to Linear and Logistic Regression - Using Ordinal"
+title: "An Alternative to Linear and Logistic Regression for Survey Analysis - Using Ordinal Logistic Regression"
 date: 2021-01-21
 tags:
   - R
