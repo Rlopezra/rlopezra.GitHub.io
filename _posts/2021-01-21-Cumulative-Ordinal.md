@@ -69,14 +69,14 @@ respondent answering to each value!
 
 ## Performing an OLR
 
-For the example, I’m going to use the [Stack Overflow’s 2020 Developer
+For the example, I’m using [Stack Overflow’s 2020 Developer
 Survey](https://www.kaggle.com/aitzaz/stack-overflow-developer-survey-2020)
-and run a Bayesian Regression using BRMS with uninformed priors. The
+and running a Bayesian Regression using BRMS with uninformed priors. The
 reason I’m taking a Bayesian approach is because the results are easier
 to interpret and I’m using uniformed priors since I do not
 have any prior knowledge or assumptions about the population surveyed. The
-model is a simple one, the explanatory variable is Satisfaction and the
-explanatory variables are Age (in years) and if they Job Seek (are they
+model is a simple one, the explanatory variable is Job Satisfaction and the
+explanatory variables are Age (in years) and Job Seek (are they
 looking for a new job). 
 
 ``` r
