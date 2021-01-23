@@ -105,10 +105,6 @@ cumul_model <-
        chains = 4, cores = 4,)
 ```
 
-    ## Compiling Stan program...
-
-    ## Start sampling
-
 ``` r
 summary(cumul_model)
 ```
