@@ -159,7 +159,7 @@ It's important to note that in OLR, the distribution of the dependent variable c
 thresholds remain the same. Lets see what happens when the threshols are illustrated above a normal distribution
 centered around -1.41 :
 
-![Imgur Image](https://imgur.com/J0wzoW.jpg)
+![Imgur Image](https://i.imgur.com/J0wzoWP.jpg)
 
 And if we use the pnorm function:
 
