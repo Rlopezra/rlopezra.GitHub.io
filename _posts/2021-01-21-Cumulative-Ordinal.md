@@ -72,42 +72,12 @@ For the example, I’m going to use the [Stack Overflow’s 2020 Developer
 Survey](https://www.kaggle.com/aitzaz/stack-overflow-developer-survey-2020)
 and run a Bayesian Regression using BRMS with uninformed priors. The
 reason I’m taking a Bayesian approach is because the results are easier
-to interpret. Additionally, I’m using uniformed priors since I do not
+to interpret and I’m using uniformed priors since I do not
 have any prior knowledge or assumptions about the population surveyed.
 
 ``` r
 library(tidyverse)
-```
-
-    ## -- Attaching packages --------------------------------------- tidyverse 1.3.0 --
-
-    ## v ggplot2 3.3.2     v purrr   0.3.4
-    ## v tibble  3.0.4     v dplyr   1.0.2
-    ## v tidyr   1.1.2     v stringr 1.4.0
-    ## v readr   1.4.0     v forcats 0.5.0
-
-    ## -- Conflicts ------------------------------------------ tidyverse_conflicts() --
-    ## x dplyr::filter() masks stats::filter()
-    ## x dplyr::lag()    masks stats::lag()
-
-``` r
 library(brms)
-```
-
-    ## Loading required package: Rcpp
-
-    ## Loading 'brms' package (version 2.14.4). Useful instructions
-    ## can be found by typing help('brms'). A more detailed introduction
-    ## to the package is available through vignette('brms_overview').
-
-    ## 
-    ## Attaching package: 'brms'
-
-    ## The following object is masked from 'package:stats':
-    ## 
-    ##     ar
-
-``` r
 library(scico)
 
 #Setting color pallete
