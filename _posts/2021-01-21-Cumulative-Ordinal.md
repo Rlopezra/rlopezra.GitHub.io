@@ -156,7 +156,7 @@ On a normal distribution centered around 0, 1.7% of respondents are expected to 
 ![Imgur Image](https://i.imgur.com/XP03SrF.jpg)
 
 It's important to note that in OLR when using the probit link function, the distribution of the dependent variable can differ by respondent but the
-thresholds remain the same. Lets see what happens when the threshols are illustrated above a normal distribution
+thresholds remain the same. Lets see what happens when the thresholds are illustrated above a normal distribution
 centered around -1.41 :
 
 ![Imgur Image](https://i.imgur.com/J0wzoWP.jpg)
