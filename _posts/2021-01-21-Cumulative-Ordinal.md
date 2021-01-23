@@ -61,7 +61,7 @@ Additionally, these differences can be compounded since they can very by
 individual.
 
 A cool thing about OLR and what makes it different is that the model
-assumes that the dependent variable comes from a latent continuous space
+assumes that the dependent variable comes from a latent continuous space (distribution)
 (User Satisfaction) and it find K-1 thresholds to partition the
 probability space (K being the number of values in the dependent
 variable). In simpler words, an OLR tells us the probability of
@@ -151,13 +151,31 @@ pnorm(-2.12)
 ```
     ## 0.01700302
 
-Going off the intercepts alone, 1.7% of respondents are expected to respond "Very Dissatisfied."
-
-The graph below illustrated the thresholds for a normal distribution centered on 0.
+On a normal distribution centered around 0, 1.7% of respondents are expected to respond "Very Dissatisfied."
     
 ![Imgur Image](https://i.imgur.com/XP03SrF.jpg)
 
+It's important to note that in OLR, the distribution of the dependent variable can differ by respondent but the
+thresholds remain the same. Lets see what happens when the threshols are illustrated above a normal distribution
+centered around -1.41 :
 
+![Imgur Image](https://imgur.com/J0wzoW.jpg)
+
+And if we use the pnorm function:
+
+``` r
+pnorm(-2.12, -1.41) 
+```
+    ## 0.2388521
+
+On a normal distribution centered around -1.41, 23.89% of respondents are expected to respond "Very Dissatisfied!"
+
+Why did I choose to center the distribution around -1.41? Because that was the estimate for respondents that said
+that they are currently seeking new job opportunities!
+
+
+Lets extend this analysis by predicting the outcomes of two 33-years old programmers that responded differently for
+the question "Which of the following best describes your current job-seeking status?"
 
 
 ![Imgur Image](https://imgur.com/m9sMRTT.jpg)
