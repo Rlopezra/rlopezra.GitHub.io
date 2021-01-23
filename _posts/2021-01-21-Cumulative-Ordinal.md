@@ -145,6 +145,11 @@ summary(cumul_model)
 
 ### Resources
 
+- [Ordinal Regression - Wikipedia](https://en.wikipedia.org/wiki/Ordinal_regression)
+- [Ordinal Regression Models in Psychology: A Tutorial - OSF](https://psyarxiv.com/x8swp/)
+- [Examples of Using R for Modeling Ordinal Data](http://users.stat.ufl.edu/~aa/ordinal/R_examples.pdf)
+- [Ordinal Regression - Michael Betancourt](https://betanalpha.github.io/assets/case_studies/ordinal_regression.html)
+
 ### Standard Normal Plot Code
 
 ``` r
