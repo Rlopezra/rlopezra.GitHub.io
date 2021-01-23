@@ -1,7 +1,19 @@
-An Alternative to Linear and Logistic Regression - Using Ordinal
+---
+layout: single
+classes: wide
+title: "An Alternative to Linear and Logistic Regression - Using Ordinal"
+date: 2021-01-21
+tags:
+  - R
+  - Bayes
+  - Analysis
+  - Probability
+comments: true
+---
+
+
 Logistic Regression in Survey Analysis
 ================
-2021-01-21
 
 In the User Experience (UX) field, most quantitative data that you deal
 with is generated from surveys. A question that is in in almost every
@@ -157,9 +169,9 @@ summary(cumul_model)
 
 ## Interpreting the results
 
-![Imgur Image](https://imgur.com/uLYwHC0.jpg)
+![Imgur Image](https://i.imgur.com/XP03SrF.jpg)
 
-![Imgur Image](https://imgur.com/uLYwHC0.jpg)
+![Imgur Image](https://imgur.com/m9sMRTT.jpg)
 
 ## When to Use OLR
 
