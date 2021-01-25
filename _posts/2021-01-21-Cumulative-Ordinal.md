@@ -182,6 +182,18 @@ the question "Which of the following best describes your current job-seeking sta
 
 ## When to Use OLR
 
+I’m a firm believer of tailoring your analysis and reports to your target audience. When deciding which methodology to 
+choose, it is important to consider your team’s data culture. If the results are going to be shared with a wide 
+audience that doesn’t have the contextual information of why a UX study (survey) was conducted, then I recommend choosing 
+the methodology the uses the KPI that anyone reading the report can understand at a glance. My opinion is that the loss 
+of model fit will be offset by the interpretably of the report. If the stakeholders must put some effort and time to 
+understand the report, then they’re very likely to pass or just glance it.
+
+I do think that OLR is a great methodology to use when the target audience is small group that you can collaborate 
+with in designing the study and explaining the model. In addition, I would use it when the research question is 
+focused on understanding the likes and dislikes of a specific group or subset of the population.  
+
+
 ## Appendix
 
 ### Resources
