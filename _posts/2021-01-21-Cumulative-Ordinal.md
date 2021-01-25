@@ -61,7 +61,8 @@ Additionally, these differences can be compounded since they can very by
 individual.
 
 A cool thing about OLR and what makes it different is that the model
-assumes that the dependent variable (User Satisfaction) comes from a latent continuous space (distribution)
+assumes that the dependent variable (User Satisfaction) comes from a 
+latent continuous space (distribution)
 and it finds K-1 thresholds to partition the
 probability space (K being the number of values in the dependent
 variable). In simpler words, an OLR tells us the probability of
@@ -182,14 +183,14 @@ the question "Which of the following best describes your current job-seeking sta
 
 ## When to Use OLR
 
-I’m a firm believer of tailoring your analysis and reports to your target audience. When deciding which methodology to 
+I’m a firm believer in tailoring your analysis and reports to your target audience. When deciding which methodology to 
 choose, it is important to consider your team’s data culture. If the results are going to be shared with a wide 
 audience that doesn’t have the contextual information of why a UX study (survey) was conducted, then I recommend choosing 
 the methodology the uses the KPI that anyone reading the report can understand at a glance. My opinion is that the loss 
-of model fit will be offset by the interpretably of the report. If the stakeholders must put some effort and time to 
-understand the report, then they’re very likely to pass or just glance it.
+of model fit will be offset by the interpretability of the report. If the stakeholders must devote some time and effot to 
+understand the report, then they’re very likely to ignore it.
 
-I do think that OLR is a great methodology to use when the target audience is small group that you can collaborate 
+I do think that OLR is a great methodology to use when the target audience is a small group that you can collaborate 
 with in designing the study and explaining the model. In addition, I would use it when the research question is 
 focused on understanding the likes and dislikes of a specific group or subset of the population.  
 
