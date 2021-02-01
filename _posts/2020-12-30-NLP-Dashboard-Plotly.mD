@@ -15,7 +15,7 @@ comments: true
 I created a dashboard analysing the [Kaggle 515K Hotel Reviews Data in Europe](https://www.kaggle.com/jiashenliu/515k-hotel-reviews-data-in-europe) dataset 
 using Natural Language Processing (NLP) techniques. The dashboard was created using Plotly and is being hosted by PythonAnywhere.
 
-[You can view the dashboard by following this link (It'll take a while to initiate the session due to the large dataset and single processor)](http://rlopezra.pythonanywhere.com/)
+[You can view the dashboard by following this link (It'll take a good minute to load if the app has to initiate.)](http://rlopezra.pythonanywhere.com/)
 
 [You can view the source code on my Github](https://github.com/Rlopezra/Hotel-Reviews-Plotly-Dashboard)
 
