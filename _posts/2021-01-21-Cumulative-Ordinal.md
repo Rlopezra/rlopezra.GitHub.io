@@ -258,20 +258,14 @@ f <-
          summary = F,
          nsamples = n_iter)
 
+sat_ord <-c("Very dissatisfied", "Slightly dissatisfied", "Neither satisfied nor dissatisfied", 
+            "Slightly satisfied","Very satisfied")
 
-p1 <- f[, , 1] %>%
-  data.frame() %>% 
-  set_names(nd %>% pull(JobSeek)) %>%
-  gather(key = "JobSeek", value = "prob") %>%
-  mutate(satisfaction = '1') %>%
-  ggplot( aes(x=prob, color=JobSeek)) +
-  geom_histogram(fill="white")  +
-  ylim(c(0,60)) +
-  facet_grid(JobSeek ~.) +
-  theme(legend.position = "none") + 
-  labs(x = 'Very Dissatisfied', y = ' ')
+cow_plot <-  rep(NA, 5)
 
-p2 <- f[, , 2] %>%
+for(i in 1:5){
+  
+  graph <- f[, , i] %>%
   data.frame() %>% 
   set_names(nd %>% pull(JobSeek)) %>%
   gather(key = "JobSeek", value = "prob") %>%
@@ -281,44 +275,11 @@ p2 <- f[, , 2] %>%
   ylim(c(0,60)) +
   facet_grid(JobSeek ~.) +
   theme(legend.position = "none") + 
-  labs(x = 'Somewhat Dissatisfied', y = ' ')
-
-p3 <- f[, , 3] %>%
-  data.frame() %>% 
-  set_names(nd %>% pull(JobSeek)) %>%
-  gather(key = "JobSeek", value = "prob") %>%
-  mutate(satisfaction = '1') %>%
-  ggplot( aes(x=prob, color=JobSeek)) +
-  geom_histogram(fill="white")+
-  ylim(c(0,60)) +
-  facet_grid(JobSeek ~.) +
-  theme(legend.position = "none") + 
-  labs(x = 'Neither Satisfied nor Dissatisfied', y = ' ')
-
-p4 <- f[, , 4] %>%
-  data.frame() %>% 
-  set_names(nd %>% pull(JobSeek)) %>%
-  gather(key = "JobSeek", value = "prob") %>%
-  mutate(satisfaction = '1') %>%
-  ggplot( aes(x=prob, color=JobSeek)) +
-  geom_histogram(fill="white")+
-  xlim(0,1) +
-  ylim(c(0,60)) +
-  facet_grid(JobSeek ~.) +
-  theme(legend.position = "none") + 
-  labs(x = 'Somewhat Satisfied', y = ' ')
-
-p5 <- f[, , 5] %>%
-  data.frame() %>% 
-  set_names(nd %>% pull(JobSeek)) %>%
-  gather(key = "JobSeek", value = "prob") %>%
-  mutate(satisfaction = '1') %>%
-  ggplot( aes(x=prob, color=JobSeek)) +
-  geom_histogram(fill="white")+
-  ylim(c(0,60)) +
-  facet_grid(JobSeek ~.) +
-  theme(legend.position = "none") + 
-  labs(x = 'Very Satisfied', y = ' ')
+  labs(x = sat_ord[i], y = ' ')
+  
+  nam <- paste("p", i, sep = "")
+  assign(nam, graph)
+}
 
 plot_grid(p1, p2, p3, p4, p5, labels = c('', '',' ', '',''), label_size = 12)
 ```
