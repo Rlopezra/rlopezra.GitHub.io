@@ -175,7 +175,7 @@ Why did I choose to center the distribution around -1.41? Because that is the es
 that they are currently seeking new job opportunities!
 
 
-Lets extend this analysis by taking advantage that Bayesian Analysis deals with posterior probabilities, the values/data that 
+Let's extend this analysis by taking advantage of the fact that Bayesian Analysis deals with posterior probabilities, the values/data that 
 we believe is more likely to occur. Lets predict the outcomes  of two 33-years old programmers that responded 
 differently to the question "Which of the following best describes your current  job-seeking status" and simulated 
 the results 100 times for each programmer. The great thing about this process is that it is easier
@@ -185,7 +185,7 @@ approach tells us what are the most probable outcomes based on our prior knowled
 Examining the graph below, for 33-years old programmers that responded that they are seeking a new job, the percent of them responding 
 "Very Dissatisfied" ranges between 25% and 32%, while 4% of "Not Seeking" respondents respond "Very Dissatisfied." For "Somewhat Dissatisfied,"
 between 3%-5% of "Not Seeking" and 22%-30% of "Seeking" would respond as "Somewhat Dissatisfied." The OLR model already tells us that ~50% of "Seeking"
-and ~8% of "Not Seeking" respondents are at least "Somewhat Dissatisfied" with their job. The graph illustrates that as we go higher in our ordinal value (satisfaction), the proportion of respondents increased for "Not Seeking" while it decreases for "Seeking" respondents.
+and ~8% of "Not Seeking" respondents are at least "Somewhat Dissatisfied" with their job. The graph illustrates that as we go higher in our ordinal value (satisfaction), the proportion of respondents increased for "Not Seeking" while it decreased for "Seeking" respondents.
 
 
 
