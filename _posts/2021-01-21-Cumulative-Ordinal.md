@@ -57,7 +57,7 @@ Dissatisfied” is the same between “Somewhat Satisfied” to “Very
 Satisfied.” For an ordinal variable, the distance between “Very
 Dissatisfied” to “Somewhat Dissatisfied” could be larger than the
 difference between “Somewhat Satisfied” to “Very Satisfied.”
-Additionally, these differences can be compounded since they can very by
+Additionally, these differences can be compounded since they can vary by
 individual.
 
 A cool thing about OLR and what makes it different is that the model
