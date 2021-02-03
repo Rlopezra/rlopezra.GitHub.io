@@ -72,7 +72,7 @@ respondent answering to each value!
 
 For the example, I’m using [Stack Overflow’s 2020 Developer
 Survey](https://www.kaggle.com/aitzaz/stack-overflow-developer-survey-2020)
-and running a Bayesian Regression using BRMS with uninformed priors. The
+and running a Bayesian Regression using BRMS package with uninformed priors. The
 reason I’m taking a Bayesian approach is because the results are easier
 to interpret and I’m using uniformed priors since I do not
 have any prior knowledge or assumptions about the population surveyed. The
