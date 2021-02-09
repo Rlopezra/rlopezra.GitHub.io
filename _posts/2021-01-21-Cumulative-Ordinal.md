@@ -171,8 +171,7 @@ pnorm(-2.12, -1.41)
 
 On a normal distribution centered around -1.41, 23.89% of respondents are expected to respond "Very Dissatisfied!"
 
-Why did I choose to center the distribution around -1.41? Because that is the estimate for respondents that said
-that they are currently seeking new job opportunities!
+Why did I choose to center the distribution around -1.41? Because that is the estimated effect size for respondents who are seeking new job opportunities!
 
 
 Let's extend this analysis by taking advantage of the fact that Bayesian Analysis deals with posterior probabilities, the values/data that 
