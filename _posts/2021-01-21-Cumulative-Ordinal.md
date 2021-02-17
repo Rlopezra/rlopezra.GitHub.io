@@ -17,7 +17,7 @@ Regression in Survey Analysis
 ================
 
 In the User Experience (UX) field, most quantitative data that you deal
-with is generated from surveys. A question that is in in almost every
+with is generated from surveys. A question that is in almost every
 survey that’s also heavily scrutinized is the question:
 
 How satisfied are you?
